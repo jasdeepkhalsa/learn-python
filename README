@@ -1,0 +1,6 @@
+A set of python exercises to help you learn python programming language.
+
+* downloader.py - A simple web fetcher / URL downloader [Working with URLs]
+* bath.py A simple bath filling script [Object Oriented Programming]
+* domaincheck.py - A simple domain checking service [Regular Expressions and pattern matching]
+* pjournal.py - A simple blog using Python and Webpy [Form Handling through GET and POST requests]
