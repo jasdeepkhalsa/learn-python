@@ -1,0 +1,32 @@
+$def with (dict1)
+
+<html>
+<head>
+<title>Jazzy K's Programming Journal (created by pJournal.py)</title>
+<style type="text/css">
+body {margin:auto;background:orange;color:white;font-family:Calibri,"Open Sans",Arial;}
+#container {margin:auto; width:600px; height:auto; padding:20px;}
+#header {background:grey;color:white;text-align:left;width:auto;height:auto;padding:10px;}
+#header a {margin-left:10px;}
+.pjournal {margin:auto;padding:10px;background:green;margin-bottom:20px;}
+a {color:yellow;text-decoration:none;}
+h2 {padding:0;margin:0;}
+#footer {background:grey;color:white;text-align:center;}
+</style>
+</head>
+<body>
+
+<div id="container">
+<h1>pJournal.py <small>- A blog of a python geek</small></h1>
+<div id="header"><a href="/">Home</a><a href="/new">New</a></div>
+$for k, v in dict1:
+  <div class="pjournal">
+  <h2>$v[2]</h2>
+  <p>$v[3]</p>
+  <small><strong>Author:</strong> $v[1] | <strong>Date:</strong> $v[0][1:13]</small>
+  </div>
+</div>
+<div id="footer">&copy; Copyright Jazzy K - Created with the magic of pJournal.py</div>
+
+</body>
+</html>

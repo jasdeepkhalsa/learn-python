@@ -1,4 +1,4 @@
-A set of python exercises to help you learn python programming language.
+A set of python exercises to help you learn the Python programming language.
 
 * downloader.py - A simple web fetcher / URL downloader [Working with URLs]
 * bath.py A simple bath filling script [Object Oriented Programming]

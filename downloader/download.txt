@@ -1,0 +1,3 @@
+http://www.pathtofile.com/file.mp3
+http://www.pathtofile.com/file.doc
+http://www.pathtofile.com/file.avi
